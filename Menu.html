@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+    <div class="Menu">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="Container">
+                <a href="Home.html" class="Navbar-brand"><img src="images/Final.svg" width="110" height="40" class="d-inline-block align-top" alt=""></a>
+                <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-lable="Toggle Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="Home.html" class="nav-link text-white">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="Menu.html" class="nav-link text-white">Menu</a>
+                        </li>
+                        <li class="nav-item"><a href="About.html" class="nav-link text-white">About</a>
+                        </li>
+                        <li class="nav-item"><a href="Contact.html" class="nav-link text-white">Contact</a>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+        <script>
+            var nav=document.querySelector('nav');
+        
+            window.addEventListener('scroll',function(){
+                if(window.pageYOffset>100){
+                    nav.classList.add('bg-dark','shadow');
+                }
+                else{
+                    nav.classList.remove('bg-dark','shadow');
+                }
+            });
+        
+        </script>    
+        <div class="wrapper">
+            <div class="title">
+                <!-- <h4><span>fresh food for good health</span> Our Menu</h4> -->
+                <h4> OUR MENU</h4>
+            </div>
+            <div class="ActualMenu">
+                <div class="single-menu">
+                    <img src="images/MP.jpg" alt="">
+                    <div class="menu-content">
+                        <h4>Mixed Platter<span> Rs.750</span></h4>
+                        <p>Samosa, vegetables, chicken, paneer, shrimp pakora & papadom (2 pieces of each).</p>
+                    </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="images/CP.jpg" alt="">
+                        <div class="menu-content">
+                            <h4>Chaat Papdi<span> Rs.750</span></h4>
+                            <p>Fried papdi mixed with onions, tomatoes, mint, tamarind & yogurt.</p>
+                        </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="images/CFS.jpg" alt="">
+                            <div class="menu-content">
+                                <h4>Chicken Fried Salad<span> Rs.750</span></h4>
+                                <p>Is the perfect blend of crispy chicken and fresh veggies tossed in your favorite dressing.</p>
+                            </div>
+                            </div>
+                <div class="single-menu">
+                    <img src="images/CC.jpg" alt="">
+                    <div class="menu-content">
+                        <h4>Chicken Curry<span> Rs.750</span></h4>
+                        <p>Lightly spiced boneless chicken cooked in a mild sauce.</p>
+                    </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="images/FC.jpg" alt="">
+                        <div class="menu-content">
+                            <h4>Fish Curry<span> Rs.750</span></h4>
+                            <p>Homemade cheese cooked in onion sauce, tomatoes, bell peppers & ginger.</p>
+                        </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="images/SC.jpg" alt="">
+                            <div class="menu-content">
+                                <h4>Shrimp Vindaloo<span> Rs.750</span></h4>
+                                <p>Homemade cheese cooked in onion sauce, tomatoes, bell peppers & ginger.</p>
+                            </div>
+                            </div>
+                    <div class="single-menu">
+                    <img src="images/Biryani.jpg" alt="">
+                    <div class="menu-content">
+                        <h4>Vegetable Biryani<span> Rs.750</span></h4>
+                        <p>Fresh vegetables in a lightly spiced sauce, with herbs, baked with basmati rice.</p>
+                    </div>
+                    </div>
+                    <div class="single-menu">
+                    <img src="images/NVBiryani.jpg" alt="">
+                    <div class="menu-content">
+                        <h4>Special Biryani<span> Rs.750</span></h4>
+                        <p>Chicken/Fish/Lamb/Goat/Shrimp minced in a lightly spiced sauce, with herbs, baked with basmati rice.</p>
+                    </div>
+                    </div>
+                    <div class="single-menu">
+                    <img src="images/PTM.jpg" alt="">
+                    <div class="menu-content">
+                        <h4>Paneer Tikka Masala<span> Rs.750</span></h4>
+                        <p>Cubed Indian cheese cooked in a tandoori clay oven with tomato sauce, onions & bell peppers.</p>
+                    </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="images/PK.jpg" alt="">
+                        <div class="menu-content">
+                            <h4>Paneer Kadhai<span> Rs.750</span></h4>
+                            <p>Homemade cheese cooked in onion sauce, tomatoes, bell peppers & ginger.</p>
+                        </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="images/Kulfi.jpg" alt="">
+                            <div class="menu-content">
+                                <h4>Kulfi<span> Rs.750</span></h4>
+                                <p>	Homemade sweetened milk ice cream, choice of mango or pistachio.</p>
+                            </div>
+                            </div>
+                            <div class="single-menu">
+                                <img src="images/GH.jpg" alt="">
+                                <div class="menu-content">
+                                    <h4>Gajar Halwa<span> Rs.750</span></h4>
+                                    <p>Carrot-based sweet dessert pudding, Grated carrots cooked in milk and butter.</p>
+                                </div>
+                                </div>
+                                <div class="single-menu">
+                                    <img src="images/Tea.jpg" alt="">
+                                    <div class="menu-content">
+                                        <h4>Tea<span> Rs.750</span></h4>
+                                        <p>Black Tea, Chai Tea, Herbal Tea, Spiced Tea, Iced Tea, White Tea.</p>
+                                    </div>
+                                    </div>
+                                    <div class="single-menu">
+                                        <img src="images/SD.jpg" alt="">
+                                        <div class="menu-content">
+                                            <h4>Soft Drinks<span> Rs.750</span></h4>
+                                            <p>Coke, Pepsi, Diet Coke, Sprite, Lemonade, Root Beer, Fanta.</p>
+                                        </div>
+                                        </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
