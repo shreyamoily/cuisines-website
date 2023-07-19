@@ -1,7 +1,5 @@
 # CUISINES
-This website lets users checkout the menu to find a wide variety of mouthwatering dishes and order the
-one they found delicious and interesting. Users can also learn more about the restaurant and reserve 
-a table to have a wonderful experience there
+Indulge in an unforgettable culinary journey with CUISINES, where users can effortlessly explore a diverse menu of mouthwatering dishes and easily place their orders for a delightful dining experience. The user-friendly interface entices food enthusiasts to discover and savor enticing dishes that tantalize their taste buds.
 
 ## Tech Stack
 
